@@ -8,7 +8,9 @@ public class Main {
  //Do some changes
         int x =0;
         TestA t = new TestA();
-        System.out.println(t.getClass().getClassLoader().getName());
-        System.out.println("Hi Wael " + "Dawoud" + " ");
+                System.out.println(t.getClass().getClassLoader().getName());
+        String s = "Hi Wael ";
+        String dawoud = "Dawoud";
+        System.out.println(s + dawoud + " ");
     }
 }

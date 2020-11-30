@@ -5,6 +5,7 @@ public class JDBC {
 private  String con ="";
 private int port;
 
+boolean state;
     public JDBC() {
     }
 
